@@ -8,7 +8,9 @@ namespace BT_AUTO_2021_Programming
         {
             //Course01(args);
             // Course02(args);
-            Course03(args);
+            //Course03(args);
+            Course04();
+
         }
 
         static void Course01(string[] args)
@@ -300,6 +302,16 @@ namespace BT_AUTO_2021_Programming
         }
 
         static void Course03(string[] args)
+
+      
+       
+
+
+
+
+
+
+
         {
             //ComputeConversion(args);
             CurrencyCalculator(156, "USD", 4.3734);
@@ -308,6 +320,35 @@ namespace BT_AUTO_2021_Programming
             Random rnd = new Random();
             GuessNumber(rnd.Next(1,1000));
         }
+
+
+        static void Course04()
+        {
+            DrawFullShape(5, 3);
+            
+
+        }
+
+
+        public static void DrawFullShape(int width, int height)
+        {
+            for (int j = 0; j < height; j++)
+            {
+                for (int i = 0; i < width; i++) /// this will print a single line with * counting width
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+
+            }
+            
+        }
+
+
+       
+
+
+
 
         static bool IsOddNumber(int number)
         {

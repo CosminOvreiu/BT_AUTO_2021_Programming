@@ -7,7 +7,7 @@ namespace BT_AUTO_2021_Programming
 {
     class HommmeWork
     {
-        public static void Main(string[] args)
+        public static void Mai(string[] args)
         {
             //Problem #1 Implement an arithmetic calculator that takes 3 arguments: the first number, the operation, the second number.
 
