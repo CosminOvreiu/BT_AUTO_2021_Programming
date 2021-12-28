@@ -10,8 +10,12 @@ namespace BT_AUTO_2021_Programming
             // Course02(args);
             //Course03(args);
             //Course04();
-            Course05();
+            //Course05();
+            Course06();
+
         }
+
+        
 
         static void Course01(string[] args)
         {
@@ -392,6 +396,35 @@ namespace BT_AUTO_2021_Programming
 
             Student stundent1 = new Student("AN 1", true, true, "Andreea A", 'f');
             stundent1.PrintStudent();
+        }
+
+        private static void Course06()
+        {
+            Car c1 = new Car(true, 20, 90);
+            Car c2 = new Car(false, 0, -90);
+            c1.Start();
+            c1.Accelerate();
+            c1.TurnLeft();
+            c1.TurnRight();
+
+            Console.WriteLine(Car.ConvertHpToKw(150));
+
+            Rectangle r1 = new Rectangle(3, 4);
+            r1.PrintRectangle();
+
+            r1.SetLength(10);
+            r1.PrintRectangle();
+
+            c2.Start();
+            c2.GearUp();
+            c2.Accelerate(20);
+            c2.Steer(20);
+            c2.Accelerate(10);
+            c2.TurnLeft();
+            c2.GearUp();
+            c2.Accelerate();
+            c2.PrintCar();
+
         }
 
 
