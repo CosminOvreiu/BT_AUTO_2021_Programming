@@ -9,8 +9,8 @@ namespace BT_AUTO_2021_Programming
             //Course01(args);
             // Course02(args);
             //Course03(args);
-            Course04();
-
+            //Course04();
+            Course05();
         }
 
         static void Course01(string[] args)
@@ -366,6 +366,36 @@ namespace BT_AUTO_2021_Programming
         }
 
 
+        static void Course05()
+        {
+            DrawShapeOutLine(5);
+            DrawShapeOutline(10, 5);
+            DrawShapeCorners(6);
+            DrawFullShape(7);
+
+            Circle c = new Circle(4);
+            Object o = new object();
+            c.Draw();
+            Triangle t1 = new Triangle(5, 7, 9);
+            t1.Draw();
+            Square s1 = new Square(5);
+            Rectangle r1 = new Rectangle(2, 7);
+            Console.WriteLine(s1.GetArea());
+            Console.WriteLine(r1.GetArea());
+            Console.WriteLine(c.ToString());
+            Console.WriteLine(t1.ToString());
+            Console.WriteLine(r1.ToString());
+            Console.WriteLine(s1.ToString());
+
+            Teacher teacher1 = new Teacher("Programming", "UPB", 2000, "Gigel Programatoru'", 'm');
+            teacher1.PrintTeacher();
+
+            Student stundent1 = new Student("AN 1", true, true, "Andreea A", 'f');
+            stundent1.PrintStudent();
+        }
+
+
+
         public static void DrawShapeOutline(int width, int height)
         {
             for (int j = 0; j < height; j++)
@@ -393,6 +423,10 @@ namespace BT_AUTO_2021_Programming
 
         }
 
+        public static void DrawShapeOutLine(int l)
+        {
+            DrawShapeOutline(l, l);
+        }
 
 
         public static void DrawShapeCorners(int width, int height)
@@ -414,7 +448,10 @@ namespace BT_AUTO_2021_Programming
             }
         }
 
-
+        public static void DrawShapeCorners(int l)
+        {
+            DrawShapeCorners(l, l);
+        }
 
         public static void DrawFullShape(int width, int height)
         {
@@ -428,7 +465,10 @@ namespace BT_AUTO_2021_Programming
             }      
         }
 
-
+        public static void DrawFullShape(int l)
+        {
+            DrawFullShape(l, l);
+        }
 
         public static void DrawFullShape2(int width, int height)
         {
@@ -442,8 +482,6 @@ namespace BT_AUTO_2021_Programming
                 Console.WriteLine(s);
             }
         }
-
-
 
 
         public static void DrawShapeOutline2(int width, int height)
@@ -508,8 +546,6 @@ namespace BT_AUTO_2021_Programming
 
             }
         }
-
-
 
 
         static bool IsOddNumber(int number)

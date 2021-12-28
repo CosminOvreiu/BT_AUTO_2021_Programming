@@ -53,7 +53,7 @@ namespace BT_AUTO_2021_Programming
         public void PrintPerson()
         {
             Console.WriteLine("Name of the person is {0}", name);
-            Console.WriteLine("-> Current state for hyngry is {0}", isHungry);
+            Console.WriteLine("-> Current state for hungry is {0}", isHungry);
             Console.WriteLine("-> Person sex is {0}", sex);
         }
             

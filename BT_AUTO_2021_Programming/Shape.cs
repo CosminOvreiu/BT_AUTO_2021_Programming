@@ -6,15 +6,32 @@ namespace BT_AUTO_2021_Programming
 {
     class Shape
     {
-        public void Draw ()
+        ConsoleColor color;
+        public virtual void Draw ()
         {
             Console.WriteLine("We are drawing a shape!");
         }
 
-        public void Erase()
+        public virtual void Erase()
         {
-            Console.WriteLine("We are ........");
+            Console.WriteLine("We are erasing the shape!");
         }
+
+        public ConsoleColor GetColor()
+        {
+            return color;
+        }
+
+        public void SetColor(ConsoleColor color)
+        {
+            this.color = color;
+        }
+
+        public override string ToString()
+        {
+            return "This is a generic shape !!";
+        }
+
 
 
 
