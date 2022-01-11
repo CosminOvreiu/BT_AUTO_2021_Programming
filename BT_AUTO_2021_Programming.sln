@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BT_AUTO_2021_Programming", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork5", "HomeWork5\HomeWork5.csproj", "{DB8D6260-AF92-4F83-8502-197BE2E90A92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit_Auto_2022", "NUnit_Auto_2022\NUnit_Auto_2022.csproj", "{FD74D62F-3CE4-4FA1-86E6-ED2C94519D47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DB8D6260-AF92-4F83-8502-197BE2E90A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB8D6260-AF92-4F83-8502-197BE2E90A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB8D6260-AF92-4F83-8502-197BE2E90A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD74D62F-3CE4-4FA1-86E6-ED2C94519D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD74D62F-3CE4-4FA1-86E6-ED2C94519D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD74D62F-3CE4-4FA1-86E6-ED2C94519D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD74D62F-3CE4-4FA1-86E6-ED2C94519D47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
