@@ -35,7 +35,7 @@ namespace NUnit_Auto_2022
                 Console.WriteLine("Cookie name {0} - cookie value {1}", c.Name, c.Value);
             }
 
-        }
+        }         
 
         public static void TakeScreenshotWithDate(IWebDriver driver, string path, string fileName, ScreenshotImageFormat format)
         {

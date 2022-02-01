@@ -12,6 +12,13 @@ namespace NUnit_Auto_2022.Utilities
         const string port = "4999";
         const string path = "/#/";
 
+        public const bool startHeadless = false;
+        public const bool useProxy = false;
+        public const bool startMaximized = true;
+        public const bool ignoreCertErr = true;
+        public const string browserProxy = "127.0.0.1:8080";
+
+
         public static string GetUrl()
         {
             return String.Format("{0}://{1}:{2}{3}", protocol, hostname, port, path);
