@@ -18,7 +18,7 @@ namespace NUnit_Auto_2022.Tests
         public void Setup()
         {
             // Instantiate the browser using the Browser Factory class created in Utilities
-            driver = Browser.GetDriver(WebBrowsers.Chrome);
+            driver = Browser.GetDriver();
         }
 
         // After each test
